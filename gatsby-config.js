@@ -1,8 +1,21 @@
-/** @type {import('gatsby').GatsbyConfig} */
+require('dotenv').config({
+  path: '.env'
+});
+
 module.exports = {
   siteMetadata: {
-      title: `new`,
+    title: `new`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-sass", "gatsby-plugin-react-helmet"]
+  jsxRuntime: 'automatic',
+  plugins: [
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        sassOptions: {
+          includePaths: ['./node_modules/normalize.css']
+        }
+      }
+    }
+  ]
 };

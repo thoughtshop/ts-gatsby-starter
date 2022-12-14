@@ -1,0 +1,45 @@
+// colors
+$white: #fff;
+$black: #000;
+
+// layout variables
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1500px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1440px
+);
+
+// media query helpers
+
+// example: @media #{$md-up} { ... }
+// compiles to: @media (min-width: 768px) { ... }
+
+$xs-only: "(min-width: 0) and (max-width: 575.98px)";
+$sm-up: "(min-width: 576px)";
+$sm-down: "(max-width: 767.98px)";
+$sm-only: "(min-width: 576px) and (max-width: 767.98px)";
+$md-up: "(min-width: 768px)";
+$md-down: "(max-width: 991.98px)";
+$md-only: "(min-width: 768px) and (max-width: 991.98px)";
+$lg-up: "(min-width: 992px)";
+$lg-down: "(max-width: 1199.98px)";
+$lg-only: "(min-width: 992px) and (max-width: 1199.98px)";
+$xl-up: "(min-width: 1200px)";
+$xl-down: "(max-width: 1499.98px)";
+$xl-only: "(min-width: 1200px) and (max-width: 1499.98px)";
+$xxl-up: "(min-width: 1500px)";
+$landscape: "(orientation: landscape)";
+$portrait: "(orientation: portrait)";
+
+// timing
+$default-timing: cubic-bezier(0.19, 1, 0.22, 1);
