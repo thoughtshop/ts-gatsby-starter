@@ -13,9 +13,21 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         sassOptions: {
-          includePaths: ['./node_modules/normalize.css']
+          includePaths: []
         }
       }
-    }
+    },
+    {
+      resolve: `gatsby-plugin-alias-imports`,
+      options: {
+        alias: {
+          '@': 'src'
+        },
+        extensions: ['js', 'jsx', 'css', 'scss', 'json']
+      }
+    },
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`
   ]
 };
