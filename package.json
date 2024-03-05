@@ -1,7 +1,6 @@
 {
   "name": "ts-gatsby-starter",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.2.0",
   "description": "Thought Shop’s starter for Gatsby",
   "author": "Corey Lowe",
   "license": "0BSD",
@@ -15,24 +14,26 @@
     "lint:styles": "stylelint 'src/**/*.{css,scss,sass}'"
   },
   "dependencies": {
-    "gatsby": "^4.16.0",
-    "gatsby-parcel-config": "^0.1.0",
-    "normalize.css": "^8.0.1",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2"
+    "gatsby": "^5.12.12",
+    "gatsby-parcel-config": "^1.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "@danbruegge/gatsby-plugin-stylelint": "^4.1.0",
-    "babel-preset-gatsby": "^2.16.0",
-    "eslint": "^7.32.0",
+    "babel-preset-gatsby": "^3.12.1",
+    "eslint": "^8.55.0",
     "eslint-config-react-app": "^7.0.1",
-    "gatsby-plugin-sass": "^5.16.0",
+    "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-image": "^3.12.3",
+    "gatsby-plugin-sass": "^6.12.3",
+    "gatsby-plugin-sharp": "^5.12.3",
+    "gatsby-transformer-sharp": "^5.12.3",
     "postcss": "^8.3.3",
-    "prettier": "^2.6.2",
-    "sass": "^1.51.0",
-    "stylelint": "^14.6.1",
-    "stylelint-config-standard-scss": "^3.0.0",
-    "stylelint-config-ts": "^0.0.7",
-    "stylelint-order": "^5.0.0"
+    "prettier": "^3.1.1",
+    "sass": "^1.69.5",
+    "stylelint": "^16.0.2",
+    "stylelint-config-standard-scss": "^12.0.0",
+    "stylelint-config-ts": "^0.0.8",
+    "stylelint-order": "^6.0.4"
   }
 }
