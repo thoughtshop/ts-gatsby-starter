@@ -3,6 +3,7 @@ node_modules/
 public
 .DS_Store
 *.log
+.env
 
 .yarn/*
 !.yarn/patches
