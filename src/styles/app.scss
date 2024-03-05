@@ -1,7 +1,8 @@
-@import "normalize.css";
-@import "./app_variables";
-@import "./vendor";
+@import "ts-reboot";
+@import "app_variables";
+@import "vendor";
 
 // add site stylesheets below
-@import "./fonts";
-@import "./global";
+@import "typography";
+@import "global";
+@import "layout";
