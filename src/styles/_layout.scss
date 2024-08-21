@@ -1,0 +1,15 @@
+html {
+  @supports (-webkit-touch-callout) {
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    height: -webkit-fill-available;
+  }
+}
+
+body {
+  min-height: 100vh;
+
+  @supports (-webkit-touch-callout) {
+    /* stylelint-disable-next-line value-no-vendor-prefix */
+    min-height: -webkit-fill-available;
+  }
+}

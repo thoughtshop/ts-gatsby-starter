@@ -1,50 +1,127 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Thought Shop Gatsby starter
-</h1>
+# Project Name
 
-## 🚀 Quick start
+A brief description of your project.
 
-1.  **Create a Gatsby site.**
+## Table of Contents
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+- [Introduction](#introduction)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Development Server](#running-the-development-server)
+  - [Building for Production](#building-for-production)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-    ```shell
-    # create a new Gatsby site using the Thought Shop starter
-    gatsby new [app-name] https://github.com/thoughtshop/ts-gatsby-starter
-    ```
+## Introduction
 
-2.  **Copy git hooks.**
+Provide a detailed description of your project. Explain what it does, why it is useful, and any other relevant information.
 
-3.  **Start developing.**
+## Features
 
-    Navigate into your new site’s directory and start it up.
+- Feature 1
+- Feature 2
+- Feature 3
 
-    ```shell
-    cd [app-name]/
-    yarn dev
-    ```
+## Getting Started
 
-4.  **Open the code and start customizing!**
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-    Your site is now running at http://localhost:8000!
+### Prerequisites
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+Make sure you have the following installed on your machine:
 
-5.  **Learn more**
+- [Node.js](https://nodejs.org/) (version 20.x or higher)
+- [Yarn](https://yarnpkg.com/) (version 1.22.x or higher)
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+### Installation
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+1. **Clone the repository**
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   ```bash
+   git clone https://github.com/thoughtshop/your-repo-name
+   cd your-repo-name
+   ```
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+2. **Install dependencies**
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   Use Yarn to install the project dependencies.
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+   ```bash
+   yarn install
+   ```
+
+### Running the Development Server
+
+Start the development server to preview your project locally.
+
+```bash
+yarn dev
+```
+
+Open your browser and visit http://localhost:8000 to see your project in action.
+
+## Building for Production
+
+To create a production build of your project, run:
+
+```bash
+yarn build
+```
+
+The command is run with the `--prefix-paths` flag. You can set the path prefix in `.env`, like so:
+
+```
+GATSBY_PATH_PREFIX=""
+```
+
+## Project Structure
+
+Briefly explain the structure of your project and the purpose of the key files and directories.
+
+```bash
+your-repo-name/
+├── node_modules/
+├── src/
+│   ├── components/
+│   ├── fonts/
+│   ├── images/
+│   ├── pages/
+│   └── styles/
+├── .gitignore
+├── .nvmrc
+├── gatsby-config.js
+├── gatsby-node.js
+├── package.json
+├── README.md
+└── yarn.lock
+```
+
+- `src/:` Contains the source code of your project.
+  - `components/:` Reusable components used throughout your project.
+  - `images/:` Image assets used in your project.
+  - `pages/:` Page components for each route.
+  - `styles/:` Stylesheets for your project.
+- `gatsby-config.js`: Configuration file for Gatsby.
+- `gatsby-node.js`: Custom Node.js scripts for Gatsby.
+- `package.json`: Lists project dependencies and scripts.
+- `yarn.lock`: Ensures consistent dependency versions.
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes.
+4. Commit your changes (`git commit -m 'Add your feature'`).
+5. Push to the branch (`git push origin feature/your-feature`).
+6. Open a pull request.
+
+Please ensure your code follows the project's coding guidelines and is properly documented.
+
+## License
+
+This project is licensed under a Proprietary License. Unauthorized copying, distribution, modification, or use of any code or content in this repository is strictly prohibited.

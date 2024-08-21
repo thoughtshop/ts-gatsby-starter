@@ -1,4 +1,4 @@
-const GlobalNav = () => {
+const GlobalHeader = () => {
   return (
     <header className="global-header">
       <nav className="global-nav"></nav>
@@ -6,4 +6,4 @@ const GlobalNav = () => {
   );
 };
 
-export default GlobalNav;
+export default GlobalHeader;

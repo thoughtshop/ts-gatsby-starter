@@ -1,5 +1,6 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { withPrefix } from 'gatsby';
 
 export default function HTML(props) {
   return (
@@ -10,6 +11,18 @@ export default function HTML(props) {
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href={withPrefix('/images/favicon-32x32.png')}
+          sizes="32x32"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          href={withPrefix('/images/favicon-16x16.png')}
+          sizes="16x16"
         />
         {props.headComponents}
       </head>
@@ -23,7 +36,7 @@ export default function HTML(props) {
         {props.postBodyComponents}
       </body>
     </html>
-  )
+  );
 }
 
 HTML.propTypes = {
@@ -32,5 +45,5 @@ HTML.propTypes = {
   bodyAttributes: PropTypes.object,
   preBodyComponents: PropTypes.array,
   body: PropTypes.string,
-  postBodyComponents: PropTypes.array,
-}
+  postBodyComponents: PropTypes.array
+};

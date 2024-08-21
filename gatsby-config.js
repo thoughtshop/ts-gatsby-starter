@@ -7,6 +7,7 @@ module.exports = {
     title: `new`,
     siteUrl: `https://www.yourdomain.tld`
   },
+  pathPrefix: process.env.GATSBY_PATH_PREFIX,
   jsxRuntime: 'automatic',
   plugins: [
     {

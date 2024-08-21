@@ -1,5 +1,5 @@
-import GlobalNav from '../components/globalNav';
-import GlobalFooter from '../components/globalFooter';
+import GlobalHeader from '@/components/globalHeader';
+import GlobalFooter from '@/components/globalFooter';
 
 // styles
 import '../styles/app.scss';
@@ -9,7 +9,7 @@ const IndexPage = () => {
   return (
     <>
       <main>
-        <GlobalNav />
+        <GlobalHeader />
       </main>
       <GlobalFooter />
     </>
