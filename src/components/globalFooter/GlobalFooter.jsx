@@ -1,5 +1,7 @@
+import * as styles from './GlobalFooter.module.scss';
+
 const GlobalFooter = () => {
-  return <footer className="global-footer">Footer</footer>;
+  return <footer className={styles.container}>Footer</footer>;
 };
 
 export default GlobalFooter;
