@@ -14725,16 +14725,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stylelint-config-ts@npm:^0.0.14":
-  version: 0.0.14
-  resolution: "stylelint-config-ts@npm:0.0.14"
+"stylelint-config-ts@npm:^0.0.17":
+  version: 0.0.17
+  resolution: "stylelint-config-ts@npm:0.0.17"
   dependencies:
     eslint: "npm:^9.12.0"
   peerDependencies:
-    stylelint: ^16.10.0
-    stylelint-config-standard-scss: ^13.1.0
+    stylelint: ^16.14.1
+    stylelint-config-standard-scss: ^14.0.0
     stylelint-order: ^6.0.4
-  checksum: 10c0/6075536ed9604451ad13a612c3a60fe355a95c4122d75e472e17941f48236b7c9740a17b52f93f4700aba618b44ed2806debd87dd17b7c74a0fc89fda8710fef
+  checksum: 10c0/4a7ff79cab413a4c03426de78f7073887bb05d06508174701fe4a306c375ecbfa40296e43a24582c6028848929ec8fab0cc5babcdb3a4cbf24992b9ec98daf2a
   languageName: node
   linkType: hard
 
@@ -15182,10 +15182,18 @@ __metadata:
     sass: "npm:^1.82.0"
     stylelint: "npm:^16.11.0"
     stylelint-config-standard-scss: "npm:^14.0.0"
-    stylelint-config-ts: "npm:^0.0.14"
+    stylelint-config-ts: "npm:^0.0.17"
     stylelint-order: "npm:^6.0.4"
+    ts-reboot: "npm:^1.0.1"
   languageName: unknown
   linkType: soft
+
+"ts-reboot@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "ts-reboot@npm:1.0.1"
+  checksum: 10c0/93490608daa16fa48e5322228af50c434cbb66a1a98cae881b39be08218940ab98a7fb5b22e6e220b4956f82e8ec417a1c52d80ac0b1d8d408393c164c6b4454
+  languageName: node
+  linkType: hard
 
 "tsconfig-paths@npm:^3.14.1":
   version: 3.14.2

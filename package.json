@@ -1,6 +1,6 @@
 {
   "name": "ts-gatsby-starter",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Thought Shop’s starter for Gatsby",
   "author": "Corey Lowe",
   "license": "0BSD",
@@ -33,8 +33,9 @@
     "sass": "^1.82.0",
     "stylelint": "^16.11.0",
     "stylelint-config-standard-scss": "^14.0.0",
-    "stylelint-config-ts": "^0.0.14",
-    "stylelint-order": "^6.0.4"
+    "stylelint-config-ts": "^0.0.17",
+    "stylelint-order": "^6.0.4",
+    "ts-reboot": "^1.0.1"
   },
   "packageManager": "yarn@4.5.3"
 }
