@@ -1,8 +1,8 @@
-@import "ts-reboot";
-@import "app_variables";
-@import "vendor";
+@use "ts-reboot";
+@use "app_variables";
+@use "vendor";
 
 // add site stylesheets below
-@import "typography";
-@import "global";
-@import "layout";
+@use "typography";
+@use "global";
+@use "layout";
