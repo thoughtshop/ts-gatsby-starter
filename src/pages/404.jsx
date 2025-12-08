@@ -1,6 +1,8 @@
+import Layout from '@/layouts/DefaultLayout';
+
 // markup
 const NotFoundPage = () => {
-  return <></>;
+  return <Layout>404</Layout>;
 };
 
 export default NotFoundPage;
