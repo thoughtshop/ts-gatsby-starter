@@ -14,7 +14,7 @@ module.exports = {
       resolve: `gatsby-plugin-sass`,
       options: {
         sassOptions: {
-          includePaths: []
+          includePaths: ['./node_modules/ts-reboot']
         }
       }
     },
@@ -24,11 +24,29 @@ module.exports = {
         alias: {
           '@': 'src'
         },
-        extensions: ['js', 'jsx', 'css', 'scss', 'json']
+        extensions: ['.js', '.jsx', '.css', '.scss', '.json']
       }
     },
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`
+    // {
+    //   resolve: 'gatsby-plugin-google-tagmanager',
+    //   options: {
+    //     id: '',
+    //     includeInDevelopment: false
+    //   }
+    // },
+    // {
+    //   resolve: 'gatsby-plugin-web-font-loader',
+    //   options: {
+    //     typekit: {
+    //       id: ''
+    //     },
+    //     custom: {
+    //       families: ['']
+    //     }
+    //   }
+    // },
   ]
 };
