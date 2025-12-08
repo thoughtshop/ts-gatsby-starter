@@ -1,19 +1,8 @@
-import GlobalHeader from '@/components/globalHeader';
-import GlobalFooter from '@/components/globalFooter';
-
-// styles
-import '../styles/app.scss';
+import Layout from '@/layouts/DefaultLayout';
 
 // markup
 const IndexPage = () => {
-  return (
-    <>
-      <main>
-        <GlobalHeader />
-      </main>
-      <GlobalFooter />
-    </>
-  );
+  return <Layout>index</Layout>;
 };
 
 export default IndexPage;
